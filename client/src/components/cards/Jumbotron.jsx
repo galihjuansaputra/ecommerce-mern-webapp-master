@@ -1,17 +1,16 @@
-export default function Jumbotron ( {
+export default function Jumbotron({
   title,
-  subTitle = "Welcome to React E-Commerce"
-} )
-{
+  subTitle = "Welcome to Akirra E-Commerce",
+}) {
   return (
     <div
-      className='container-fluid jumbotron'
-      style={ { marginTop: "-8px", height: "200px" } }
+      className="container-fluid jumbotron"
+      style={{ marginTop: "-8px", height: "200px" }}
     >
-      <div className='row'>
-        <div className='col text-center p-5 '>
-          <h1 className='fw-bold'>{ title }</h1>
-          <p className='lead'>{ subTitle }</p>
+      <div className="row">
+        <div className="col text-center p-5 ">
+          <h1 className="fw-bold">{title}</h1>
+          <p className="lead">{subTitle}</p>
         </div>
       </div>
     </div>
