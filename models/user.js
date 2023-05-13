@@ -26,10 +26,10 @@ const userSchema = new Schema(
     },
     role: {
       type: Number,
-      default: 0,
+      default: 0, //default value is 0, 1 is admin
     },
   },
   { timestamps: true }
 );
 
-export default mongoose.model( "User", userSchema );
+export default mongoose.model("User", userSchema);
